@@ -205,6 +205,7 @@ hr {
     text-align: center;
     line-height: 72px;
     padding: 0 100px;
+    margin-bottom: 60px;
 }
 .service_section .service_content {
     background: #f1f1f1;
@@ -221,6 +222,7 @@ hr {
     font-weight: 300;
     color: #606060;
 }
+
 .service_section .service_content .service_content_top img {
     width: 120px;
     opacity: .6;

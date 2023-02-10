@@ -71,20 +71,6 @@
 
 }
 
-/* Normal desktop */
-/* @media (max-width: 1600px) {
-    .container{
-        max-width: 1220px;
-    }
-    .video_section::before {
-        font-size: 80px;
-        line-height: 80px;
-        padding: 50px 220px;
-    }
-
-} */
-
-/* Normal desktop */
 @media (min-width: 1124px) and (max-width: 1300px) {
     .container{
         max-width: 1000px;
@@ -95,6 +81,13 @@
         padding: 0px 220px;
         display: flex;
         align-items: center;
+    }
+    .contact_section .contact_left h2 {
+        font-size: 52px;
+        line-height: 52px;
+    }
+    .service_section .service_title h2 {
+        margin-bottom: 50px;
     }
 }
 
@@ -116,11 +109,9 @@
     .container{
         max-width: 800px;
     }
-    
-
 }
 
- 
+
 @media (max-width: 767px) {
     .container{
         max-width: 650px;
@@ -158,8 +149,6 @@
         font-size: 52px;
         line-height: 52px;
     }
-    
- 
 }
 
 /* Smart Phone */
@@ -200,7 +189,7 @@
 
 }
 
-
+/* Android */
 @media (max-width: 450px) {
     .container{
         max-width: 380px;
